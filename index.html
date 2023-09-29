@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="body-shape">
+            <input type="text" id="result" readonly></input>
+            <div class="buttons">
+                <!-- Make sure to use input buttons instead of on click -->
+                <button onkeypress="Press(event)">7</button>
+                <button onkeypress="Press(event)">8</button>
+                <button onkeypress="Press(event)">9</button>
+                <button onkeypress="Press(event)" class="sign">+</button>
+                <button onkeypress="Press(event)">4</button>
+                <button onkeypress="Press(event)">5</button>
+                <button onkeypress="Press(event)">6</button>
+                <button onkeypress="Press(event)" class="sign">-</button>
+                <button onkeypress="Press(event)">1</button>
+                <button onkeypress="Press(event)">2</button>
+                <button onkeypress="Press(event)">3</button>
+                <button onkeypress="Press(event)" class="sign">*</button>
+                <button onkeypress="Press(event)" class="clear">C</button>
+                <button onkeypress="Press(event)">0</button>
+                <button onkeypress="Press(event)" class="sign">=</button>
+                <button onkeypress="Press(event)" class="sign">/</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

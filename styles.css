@@ -1,0 +1,63 @@
+body {
+    background: radial-gradient(ellipse at top, #003a91, transparent),
+                radial-gradient(ellipse at bottom, #0dcc36, black);
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow:hidden;
+}
+
+.body-shape {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:auto;
+    margin: auto;
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(160, 160, 160), rgb(219, 219, 219));
+    border: 3px solid black;
+}
+
+#result {
+    background-image: linear-gradient(white, gray);
+    box-shadow: 3px 3px 1px black;
+    border: 2px solid black;
+    padding: 5px;
+    padding: 20px;
+    text-align: right;
+    border-radius: 5px;
+    width: 260px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    text-align: center;
+}
+
+.buttons button {
+    margin: 2px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(34, 34, 34);
+    font-size: large;
+    aspect-ratio: 1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(white, gray)
+}
+
+button.sign {
+    color: white;
+    background: linear-gradient(rgb(0, 0, 0), rgb(63, 63, 63));;
+}
+
+button.clear {
+    color:white;
+    background: linear-gradient(rgb(209, 0, 0), rgb(104, 0, 0));
+}
